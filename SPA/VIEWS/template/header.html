@@ -1,14 +1,14 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../Views/home.html"><img src="../../SPA/Images/logo.PNG" style="width: 20%;"> </a>
+          <a class="navbar-brand" href="#"> <img src="../../SPA/Images/logo.PNG" style="width: 20%;" ui-sref="home" /> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../Views/home.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#" ui-sref="home">Home</a>
               </li>
             
               <li class="nav-item dropdown">
@@ -17,7 +17,7 @@
                 </a>
                 <!-- esto debemos buscarlo por bd -->
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="../Views/detalleProducto.html">PERROS</a></li>
+                  <li><a class="dropdown-item" href="#" ui-sref="detalleProducto">PERROS</a></li>
                   <li><a class="dropdown-item" href="#">GATOS</a></li>
                   <!-- <li><hr class="dropdown-divider"></li>  Para poner una linea en el medio -->
                   <li><a class="dropdown-item" href="#">ACUARIOS</a></li>
